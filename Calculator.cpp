@@ -13,7 +13,7 @@ int main()
     cin >> n2;
 
     cout << "Enter '+' operation for Addition of two numbers." << endl << 
-            "Enter '-' operation for Sobtraction of two numbers." << endl <<
+            "Enter '-' operation for Subtraction of two numbers." << endl <<
             "Enter '*' operation for Multiplication of two numbers." << endl <<
             "Enter '/' operation for Dividionn of two numbers." << endl << 
             "Enter '%' operation for Modulus of two numbers." << endl <<
