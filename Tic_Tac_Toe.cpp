@@ -16,6 +16,7 @@ int main()
     char players[2] = {'X', 'O'};
     int c_p = 0; // c_p --> Current Player.
     int r, c; // r --> row & c--> column.
+    char playAgain;
 
     while (true) 
     {
@@ -52,6 +53,27 @@ int main()
 
     cout << "\n Final board: \n";
     print_board(board);
+
+    cout<<"Play again? (y/n): ";
+    cin>> playAgain;
+    if (playAgain == 'y'|| playAgain == 'Y') 
+    {
+        // Reset the board and variables for a new game.
+        for (int i = 0; i < 3; i++) 
+        {
+            for (int j=0; j < 3; j++) 
+            {
+                board[i][j] == ' ' ;
+            }
+        } 
+        c_p = 'X';
+        bool win = false;
+        bool draw = false;
+    } 
+    else 
+    {
+        cout << "Thanks for playing! Goodbye." << endl;
+    }
     
     return 0;
 }
