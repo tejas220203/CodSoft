@@ -124,7 +124,7 @@ bool win(char board[3][3], char player)
             return true;
         }
     }
-    return 0;
+    return false;
 }
 
 // to check for a draw.
@@ -136,10 +136,10 @@ bool draw(char board[3][3])
         {
             if (board[i][j] == ' ') 
             {
-                return 0;
+                return false;
             }
         }
     }
-    return 1;
+    return true;
 }
 
