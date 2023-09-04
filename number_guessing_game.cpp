@@ -9,6 +9,7 @@ int main()
     int randnum = 1 + rand() % 100;  // Generate a random number between 1 and 100
     int guess;
     int attempts = 0;
+    cout << "Welcome!" << endl  << "Let's Start The Game -->" << endl << endl;
     do 
     {
         cout << "Guess the number (between 1 & 100): ";    
